@@ -12,8 +12,8 @@
 
 ##手順
 1． Chart.js を読み込む
-　　<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> を<head> に追加。
-2.　HTML に canvas 要素を追加<canvas id="myChart"></canvas>
+　　script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
+2.　HTML に canvas 要素を追加id="myChart"
 3．JavaScript で設定
 　　- インスタンスを作成
 　　- データを設定（PHP から取得して整形）
