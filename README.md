@@ -12,13 +12,13 @@
 
 ##手順
 1． Chart.js を読み込む
-　　script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
+script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
 2.　HTML に canvas 要素を追加id="myChart"
 3．JavaScript で設定
-　　- インスタンスを作成
-　　- データを設定（PHP から取得して整形）
-　　- オプションを定義
-　　- グラフを描画
+- インスタンスを作成
+- - データを設定（PHP から取得して整形）
+- オプションを定義
+- グラフを描画
 　　const ctx = document.getElementById('myChart').getContext('2d');
 　　new Chart(ctx, {
     type: 'bar',
