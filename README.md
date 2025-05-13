@@ -2,4 +2,5 @@
 ##概念
 このプロジェクトはCanvasとchart.jsについて復習するために作成しました
 ##フローチャート
-<img width="100%" alt="fro-canvas" src="https://github.com/user-attachments/assets/f0e68958-f82d-4d0a-b766-230d2b9f1eba" />
+
+<img width="100%" alt="無題" src="https://github.com/user-attachments/assets/1c76619b-93c8-4a17-8c37-5d6f3dc6cd45" />
