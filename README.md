@@ -2,7 +2,6 @@
 ##概念
 このプロジェクトはCanvasとchart.jsについて復習するために作成しました
 ##フローチャート
-
 <img width="100%" alt="無題" src="https://github.com/user-attachments/assets/1c76619b-93c8-4a17-8c37-5d6f3dc6cd45" />
 ##目的
 1.	Chart.js を利用してグラフを描画
@@ -40,5 +39,3 @@ script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
 - Add Data – 動的にデータを追加する (chart.data.datasets.push(...))
 - Remove Data – データポイントを削除 (chart.data.labels.pop(); chart.update();)
 - Plugins – 独自の拡張機能を追加 (Chart.plugins.register(customPlugin))
-##作成したコード
-https://github.com/pekepeke-pekepeke/my-project/blob/main/index.php
