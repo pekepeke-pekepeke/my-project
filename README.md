@@ -4,12 +4,10 @@
 ##フローチャート
 
 <img width="100%" alt="無題" src="https://github.com/user-attachments/assets/1c76619b-93c8-4a17-8c37-5d6f3dc6cd45" />
-
 ##目的
 1.	Chart.js を利用してグラフを描画
 2.	PHP でデータを JSON 形式に変換
 3.	JavaScript でデータを取得し、グラフを描画
-
 ##手順
 1． Chart.js を読み込む
 script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
@@ -19,8 +17,6 @@ script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
 - データを設定（PHP から取得して整形）
 - オプションを定義
 - グラフを描画
-
-
 ##基本用語
 - Canvas – HTMLの <canvas> 要素を使ってグラフを描画する仕組み
 - Chart Configuration – チャートの種類、データ、オプションを設定する構造 (type, data, options)
@@ -44,4 +40,5 @@ script src="https://cdn.jsdelivr.net/npm/chart.js" をheadに追加。
 - Add Data – 動的にデータを追加する (chart.data.datasets.push(...))
 - Remove Data – データポイントを削除 (chart.data.labels.pop(); chart.update();)
 - Plugins – 独自の拡張機能を追加 (Chart.plugins.register(customPlugin))
-
+##作成したコード
+https://github.com/pekepeke-pekepeke/my-project/blob/main/index.php
